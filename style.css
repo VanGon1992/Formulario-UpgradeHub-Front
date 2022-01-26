@@ -1,0 +1,68 @@
+* {
+    font-family: Tahoma, sans-serif;
+    margin: 0 auto;
+}
+
+body {
+    height: 80rem;
+    background-color: rgb(245, 208, 47);
+}
+
+h1 {
+    background-color: black;
+    padding: 3rem;
+    color: white;
+}
+
+h2 {
+    background-color: rgb(238, 221, 148);
+    padding: 3rem;
+}
+
+.inputDatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 30rem;
+}
+
+.inputDatos:first-child {
+    margin-top: 3rem;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 8rem;
+    margin-bottom: 3rem;
+}
+
+#submit:hover {
+    background-color: rgb(21, 189, 105);
+    transition: 0.4s ease-in;
+}
+
+#datos {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 0.1rem dashed black;
+    padding: 2rem;
+    margin-top: 3rem;
+    width: 60%;
+    list-style: none;
+}
